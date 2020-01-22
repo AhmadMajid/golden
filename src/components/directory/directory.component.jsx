@@ -23,7 +23,7 @@ class Directory extends React.Component {
           linkUrl: ''
         },
         {
-          title: 'our originals',
+          title: 'originals',
           imageUrl: 'https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=643&q=80',
           id: 3,
           linkUrl: ''
