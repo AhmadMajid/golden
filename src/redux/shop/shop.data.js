@@ -11,14 +11,12 @@ const SHOP_DATA = [
           price: 60,
           stock: 12
         },
-        },
         {
           id: 2,
           name: 'Nike Air Max 270',
           imageUrl: 'https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/a0697e54-a067-49ab-9337-75b40474da8c/air-max-270-react-shoe-kSBKQM.jpg',
           price: 150,
           stock: 12
-        },
         },
         {
           id: 3,
@@ -27,14 +25,12 @@ const SHOP_DATA = [
           price: 35,
           stock: 12
         },
-        },
         {
           id: 4,
           name: 'Jordan XI',
           imageUrl: 'https://stockx-360.imgix.net/Air-Jordan-11-Retro-Concord-2018/Images/Air-Jordan-11-Retro-Concord-2018/Lv2/img01.jpg?auto=format,compress&q=90&updated_at=1566585772&w=1000',
           price: 95,
           stock: 12
-        },
         },
         {
           id: 5,
@@ -43,14 +39,12 @@ const SHOP_DATA = [
           price: 110,
           stock: 12
         },
-        },
         {
           id: 6,
           name: 'Vans Ward',
           imageUrl: 'https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcReGKbs-K0l3qS7pHAz2Ck2pl4eObzJDbndpLxrfehxtw85J97WdXqKrrAzYWbg4JnP1WqlTSNdyfT2aZ1ow6yVeh7YHAqeW5ORvDvj_lfckb9J4A-xMVfSsQ&usqp=CAE',
           price: 43,
           stock: 12
-        },
         },
         {
           id: 7,
@@ -59,14 +53,12 @@ const SHOP_DATA = [
           price: 43,
           stock: 12
         },
-        },
         {
           id: 8,
           name: 'Nike Flex Contact',
           imageUrl: 'https://images.sportsdirect.com/images/products/12142540_l.jpg',
           price: 46,
           stock: 12
-        },
         },
         {
           id: 9,
@@ -75,7 +67,6 @@ const SHOP_DATA = [
           price: 179,
           stock: 12
         },
-        }
       ]
     },
     {
@@ -90,14 +81,12 @@ const SHOP_DATA = [
           price: 27,
           stock: 12
         },
-        },
         {
           id: 11,
           name: 'Saucony Kids Baby Jazz H&l-K Sneaker',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61ipVR4S%2B%2BL._AC_UL200_SR200,200_.jpg',
           price: 25,
           stock: 12
-        },
         },
         {
           id: 12,
@@ -106,14 +95,12 @@ const SHOP_DATA = [
           price: 15,
           stock: 12
         },
-        },
         {
           id: 13,
           name: 'COODO Toddler/Little Kid Boys Girls Shoes Running Sports Sneakers',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71kVs1GzEzL._AC_UL200_SR200,200_.jpg',
           price: 15,
           stock: 12
-        },
         },
         {
           id: 14,
@@ -122,14 +109,12 @@ const SHOP_DATA = [
           price: 23,
           stock: 12
         },
-        },
         {
           id: 15,
           name: 'WETIKE Kids Shoes Boys Girls Sneakers Running Tennis Wrestling Athletic Gym Shoes Slip-on Soft Knit Sock Shoes',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71zEmLggHvL._AC_UL200_SR200,200_.jpg',
           price: 21,
           stock: 12
-        },
         },
         {
           id: 16,
@@ -138,7 +123,6 @@ const SHOP_DATA = [
           price: 30,
           stock: 12
         },
-        },
         {
           id: 17,
           name: 'Weestep Toddler Little Kid Boys and Girls Slip On Canvas Sneakers',
@@ -146,7 +130,6 @@ const SHOP_DATA = [
           price: 17,
           stock: 12
         },
-        }
       ]
     },
     {
@@ -161,14 +144,12 @@ const SHOP_DATA = [
           price: 40,
           stock: 12
         },
-        },
         {
           id: 19,
           name: 'Mens Comfort Shoes PU Fall Casual Oxfords Wear Proof Gold',
           imageUrl: 'https://li0.rightinthebox.com/images/384x384/201811/zzcnjy1543473880714.jpg',
           price: 39,
           stock: 12
-        },
         },
         {
           id: 20,
@@ -177,14 +158,12 @@ const SHOP_DATA = [
           price: 31,
           stock: 12
         },
-        },
         {
           id: 21,
           name: 'Boys USB Charging LED / Comfort / LED Shoes Leatherette Sneakers Little Kids(4-7ys) / Big Kids(7years +) Walking Shoes Hook & Loop / Gold Fall / Winter / Rubber / EU39',
           imageUrl: 'https://li0.rightinthebox.com/images/384x384/201708/exifjo1502420853053.jpg',
           price: 24,
           stock: 12
-        },
         },
         {
           id: 22,
@@ -193,7 +172,6 @@ const SHOP_DATA = [
           price: 40,
           stock: 12
         },
-        }
       ]
     },
     {
@@ -208,14 +186,12 @@ const SHOP_DATA = [
           price: 9,
           stock: 12
         },
-        },
         {
           id: 24,
           name: 'Womens Walking Shoes Sock Sneakers - Mesh Slip On Air Cushion Lady Girls Modern Jazz Dance Easy Shoes Platform Loafers',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/61Nh8BmRvoL._AC_UL200_SR200,200_.jpg',
           price: 23,
           stock: 12
-        },
         },
         {
           id: 25,
@@ -224,14 +200,12 @@ const SHOP_DATA = [
           price: 53,
           stock: 12
         },
-        },
         {
           id: 26,
           name: 'adidas Womens Cloudfoam Pure Running Shoe',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/71hXy-Dy6jL._AC_UL200_SR200,200_.jpg',
           price: 36,
           stock: 12
-        },
         },
         {
           id: 27,
@@ -240,14 +214,12 @@ const SHOP_DATA = [
           price: 10,
           stock: 12
         },
-        },
         {
           id: 28,
           name: 'Crocs Womens Classic Lined Clog | Indoor and Outdoor Fuzzy Slipper',
           imageUrl: 'https://images-na.ssl-images-amazon.com/images/I/51GgOW7jgxL._AC_UL200_SR200,200_.jpg',
           price: 30,
           stock: 12
-        },
         },
         {
           id: 29,
@@ -256,7 +228,6 @@ const SHOP_DATA = [
           price: 20,
           stock: 12
         },
-        }
       ]
     },
     {
@@ -271,14 +242,12 @@ const SHOP_DATA = [
           price: 60,
           stock: 12
         },
-        },
         {
           id: 31,
           name: 'Nike Air Force 1 07',
           imageUrl: 'https://d2ob0iztsaxy5v.cloudfront.net/product/340964/3409647020_main.jpg',
           price: 80,
           stock: 12
-        },
         },
         {
           id: 32,
@@ -287,14 +256,12 @@ const SHOP_DATA = [
           price: 70,
           stock: 12
         },
-        },
         {
           id: 33,
           name: 'Converse All Star Hi Top',
           imageUrl: 'https://d2ob0iztsaxy5v.cloudfront.net/product/340140/3401407070_main.jpg',
           price: 55,
           stock: 12
-        },
         },
         {
           id: 34,
@@ -303,7 +270,6 @@ const SHOP_DATA = [
           price: 80,
           stock: 12
         },
-        },
         {
           id: 35,
           name: 'Dr Martens Combs Tech',
@@ -311,7 +277,6 @@ const SHOP_DATA = [
           price: 99,
           stock: 12
         },
-        }
       ]
     }
   ];
