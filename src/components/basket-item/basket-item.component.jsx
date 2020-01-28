@@ -1,9 +1,9 @@
 import React from 'react';
 
-import './cart-item.styles.scss';
+import './basket-item.styles.scss';
 
-const CartItem = ({ item: { imageUrl, price, name, quantity, stock } }) => (
-    <div className='cart-item'>
+const BasketItem = ({ item: { imageUrl, price, name, quantity, stock } }) => (
+    <div className='basket-item'>
         <img src={imageUrl} alt='item' />
         <div className='item-details'>
             <span className='name'>{name}</span>
@@ -14,4 +14,4 @@ const CartItem = ({ item: { imageUrl, price, name, quantity, stock } }) => (
     </div>
 );
 
-export default CartItem;
+export default BasketItem;

@@ -4,9 +4,9 @@ import { connect } from 'react-redux';
 import { createStructuredSelector } from 'reselect';
 
 import { auth } from '../../firebase/firebase.utils';
-import CartIcon from '../cart-icon/cart-icon.component';
-import CartDropdown from '../cart-dropdown/cart-dropdown.component';
-import { selectCartHidden } from '../../redux/cart/cart.selectors';
+import BasketIcon from '../basket-icon/basket-icon.component';
+import BasketDropdown from '../basket-dropdown/basket-dropdown.component';
+import { selectBasketHidden } from '../../redux/basket/basket.selectors';
 import { selectCurrentUser } from '../../redux/user/user.selectors';
 
 import { ReactComponent as Logo } from '../../assets/sneaker.svg';
@@ -22,8 +22,8 @@ const Header = ({ currentUser, hidden }) => (
         <Link className='option' to='/shop'>
           SHOP
         </Link>
-        <Link className='option' to='/shop'>
-          CONTACT
+        <Link className='option' to='/returns'>
+          RETURNS & CONTACT
         </Link>
         {currentUser ? (
           <div className='option' onClick={() => auth.signOut()}>
@@ -34,17 +34,17 @@ const Header = ({ currentUser, hidden }) => (
             SIGN IN
           </Link>
          )}
-         <CartIcon />
+         <BasketIcon />
       </div>
       { 
-        hidden ? null : <CartDropdown />
+        hidden ? null : <BasketDropdown />
       }
     </div>
   );
   
   const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
-    hidden: selectCartHidden
+    hidden: selectBasketHidden
   });
 
   export default connect(mapStateToProps)(Header);
