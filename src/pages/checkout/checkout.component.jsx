@@ -25,10 +25,7 @@ const CheckoutPage = ({basketItems, total}) => (
         </div>
         <div className='header-block'>
             <span>Remove</span>
-        </div>
-        <div className='stock-block'>
-            <span>Stock</span>
-        </div>                                
+        </div>                               
     </div>
     {basketItems.map(basketItem => (
         <CheckoutItem key={basketItem.id} basketItem={basketItem} />        

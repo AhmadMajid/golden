@@ -2,7 +2,7 @@ import React from 'react';
 
 import './basket-item.styles.scss';
 
-const BasketItem = ({ item: { imageUrl, price, name, quantity, stock } }) => (
+const BasketItem = ({ item: { imageUrl, price, name, quantity } }) => (
     <div className='basket-item'>
         <img src={imageUrl} alt='item' />
         <div className='item-details'>

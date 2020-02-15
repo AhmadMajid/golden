@@ -5,7 +5,7 @@ export const addItemToBasket = (basketItems, basketItemToAdd) => {
   
     if (existingBasketItem) {
       return basketItems.map(basketItem =>
-        basketItem.id === basketItemToAdd.id && basketItem.quantity < 12
+        basketItem.id === basketItemToAdd.id
           ? { ...basketItem, quantity: basketItem.quantity + 1 }
           : basketItem
       );

@@ -10,7 +10,7 @@ import {
 import './checkout-item.styles.scss';
 
 const CheckoutItem = ({ basketItem, clearItem, addItem, removeItem }) => {
-  const { name, imageUrl, price, quantity, stock } = basketItem;
+  const { name, imageUrl, price, quantity } = basketItem;
   return (
     <div className='checkout-item'>
       <div className='image-container'>
@@ -30,7 +30,6 @@ const CheckoutItem = ({ basketItem, clearItem, addItem, removeItem }) => {
       <div className='remove-button' onClick={() => clearItem(basketItem)}>
         &#10005;
       </div>
-      <span className='stock-left'>{stock - quantity}</span>
     </div>
   );
 };
