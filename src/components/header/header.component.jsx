@@ -22,8 +22,8 @@ const Header = ({ currentUser, hidden }) => (
         <Link className='option' to='/shop'>
           SHOP
         </Link>
-        <Link className='option' to='/returns'>
-          RETURNS & CONTACT
+        <Link className='option' to='/shop'>
+          CONTACT
         </Link>
         {currentUser ? (
           <div className='option' onClick={() => auth.signOut()}>
@@ -36,12 +36,12 @@ const Header = ({ currentUser, hidden }) => (
          )}
          <BasketIcon />
       </div>
-      { 
+      {
         hidden ? null : <BasketDropdown />
       }
     </div>
   );
-  
+
   const mapStateToProps = createStructuredSelector({
     currentUser: selectCurrentUser,
     hidden: selectBasketHidden
